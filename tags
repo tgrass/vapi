@@ -1,0 +1,201 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BEGIN_EXTERN_C	./common.h	5;"	d
+BEGIN_EXTERN_C	./common.h	8;"	d
+CC	./Makefile	/^CC=mipsel-openwrt-linux-uclibc-gcc$/;"	m
+CFLAGS	./Makefile	/^CFLAGS = -lm$/;"	m
+END_EXTERN_C	./common.h	6;"	d
+END_EXTERN_C	./common.h	9;"	d
+ISNULL	./utils.h	23;"	d
+MAX_BUF	./common.h	21;"	d
+MAX_LINE	./common.h	20;"	d
+OBJECT	./Makefile	/^OBJECT = main.o utils.o system.o wlan.o neighbour.o radio.o interface.o qos.o$/;"	m
+STAGING_DIR	./Makefile	/^STAGING_DIR = \/home\/tarena\/openwrt\/trunk\/staging_dir\/$/;"	m
+TARGET	./Makefile	/^TARGET = vapi$/;"	m
+VAPI_FWUPDATE_PATH	./neighbour.h	9;"	d
+VAPI_LOG_LINE_MAX_BYTES	./interface.h	8;"	d
+VAPI_LOG_MAX_LINES	./interface.h	9;"	d
+VAPI_MAX_NEIGHBOURS	./neighbour.h	8;"	d
+VAPI_MAX_WLANS	./wlan.h	11;"	d
+VAPI_MAX_WLAN_INFOS	./wlan.h	12;"	d
+VAPI_RADIO_FLAG_MIN_RSSI	./radio.h	10;"	d
+WAN_DHCP	./interface.c	/^    WAN_DHCP = 1,$/;"	e	enum:WAN_TYPE	file:
+WAN_PPPOE	./interface.c	/^    WAN_PPPOE = 3,$/;"	e	enum:WAN_TYPE	file:
+WAN_PPTP	./interface.c	/^    WAN_PPTP = 4,$/;"	e	enum:WAN_TYPE	file:
+WAN_STATIC	./interface.c	/^    WAN_STATIC = 2,$/;"	e	enum:WAN_TYPE	file:
+WAN_TYPE	./interface.c	/^enum WAN_TYPE{$/;"	g	file:
+_GNU_SOURCE	./utils.c	1;"	d	file:
+__COMMON_H	./common.h	2;"	d
+__INTERFACE_H	./interface.h	2;"	d
+__NEIGHHOUR_H	./neighbour.h	2;"	d
+__QOS_H__	./qos.h	2;"	d
+__RADIO_H__	./radio.h	2;"	d
+__SYSTEM_H_	./system.h	2;"	d
+__UTILS_H	./utils.h	2;"	d
+__WALN_H	./wlan.h	2;"	d
+_zstr	./utils.h	/^static inline int _zstr(const char *s)$/;"	f
+auth_password	./interface.h	/^    char            auth_password[32];$/;"	m	struct:vapi_wan_config
+auth_type	./interface.h	/^    int             auth_type;$/;"	m	struct:vapi_wan_config
+bssid	./interface.h	/^    uint8_t         bssid[6];$/;"	m	struct:vapi_wan_config
+bssid	./neighbour.h	/^    u_char      bssid[6];$/;"	m	struct:vapi_neighbour
+bssid	./wlan.h	/^    u_char      bssid[6];$/;"	m	struct:vapi_wan_info
+channel	./neighbour.h	/^    uint32_t    channel;$/;"	m	struct:vapi_neighbour
+channel	./radio.h	/^    uint32_t    channel;$/;"	m	struct:vapi_radio
+channel	./wlan.h	/^    uint32_t    channel;$/;"	m	struct:vapi_wan_info
+current_stations	./wlan.h	/^    uint32_t    current_stations;$/;"	m	struct:vapi_wan_info
+daemon_debug	./main.c	/^int daemon_debug = 0;$/;"	v
+debug	./utils.c	/^void debug(const char *fmt, ...)$/;"	f
+dns1	./interface.h	/^    struct in_addr  *dns1;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+dns2	./interface.h	/^    struct in_addr  *dns2;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+enable	./radio.h	/^    uint32_t    enable;$/;"	m	struct:vapi_radio
+enable_defaultroute	./interface.h	/^    int             enable_defaultroute;$/;"	m	struct:vapi_wan_config
+enable_vpn	./interface.h	/^    int             enable_vpn;$/;"	m	struct:vapi_wan_config
+encryt_key	./wlan.h	/^    u_char      encryt_key[32];$/;"	m	struct:vapi_wlan
+encryt_mode	./wlan.h	/^    uint32_t    encryt_mode;$/;"	m	struct:vapi_wan_info
+encryt_mode	./wlan.h	/^    uint32_t    encryt_mode;$/;"	m	struct:vapi_wlan
+essid	./neighbour.h	/^    char        essid[32];$/;"	m	struct:vapi_neighbour
+essid	./wlan.h	/^    char        essid[32];$/;"	m	struct:vapi_wan_info
+essid	./wlan.h	/^    char        essid[32];$/;"	m	struct:vapi_wlan
+execute	./utils.c	/^int execute(const char *fmt, ...)$/;"	f
+flags	./radio.h	/^    uint32_t    flags;$/;"	m	struct:vapi_radio
+freq	./neighbour.h	/^    uint32_t    freq;$/;"	m	struct:vapi_neighbour
+freq	./radio.h	/^    uint32_t    freq;$/;"	m	struct:vapi_radio
+freq	./wlan.h	/^    u_int16_t   freq;$/;"	m	struct:vapi_wlan
+freq	./wlan.h	/^    uint32_t    freq;$/;"	m	struct:vapi_wan_info
+g_cstime	./system.h	/^static time_t g_cstime = (time_t)0;$/;"	v
+gateway	./interface.h	/^    struct in_addr  *gateway;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+hidden	./wlan.h	/^    uint32_t    hidden;$/;"	m	struct:vapi_wan_info
+hidden	./wlan.h	/^    uint32_t    hidden;$/;"	m	struct:vapi_wlan
+home_percent	./qos.h	/^    uint32_t    home_percent;$/;"	m	struct:vapi_qos
+htmode	./interface.h	/^    int             htmode;$/;"	m	struct:vapi_wan_config
+htmode	./neighbour.h	/^    uint32_t    htmode;$/;"	m	struct:vapi_neighbour
+htmode	./radio.h	/^    uint32_t    htmode;$/;"	m	struct:vapi_radio
+htmode	./wlan.h	/^    uint32_t    htmode;$/;"	m	struct:vapi_wan_info
+hwmode	./interface.h	/^    int             hwmode;$/;"	m	struct:vapi_wan_config
+hwmode	./neighbour.h	/^    uint32_t    hwmode;$/;"	m	struct:vapi_neighbour
+hwmode	./radio.h	/^    uint32_t    hwmode;$/;"	m	struct:vapi_radio
+hwmode	./wlan.h	/^    uint32_t    hwmode;$/;"	m	struct:vapi_wan_info
+id	./qos.h	/^    uint32_t    id;$/;"	m	struct:vapi_wlan_if
+id	./wlan.h	/^    uint32_t    id;$/;"	m	struct:vapi_wlan
+ifname	./wlan.h	/^    char        ifname[32];$/;"	m	struct:vapi_wan_info
+ip	./interface.h	/^    struct in_addr  *ip;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+main	./main.c	/^int main()$/;"	f
+max_stations	./wlan.h	/^    uint32_t    max_stations;$/;"	m	struct:vapi_wlan
+min_rssi	./radio.h	/^    int         min_rssi;$/;"	m	struct:vapi_radio
+mtu	./interface.h	/^    int             mtu;$/;"	m	struct:vapi_wan_config
+netmask	./interface.h	/^    struct in_addr  *netmask;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+parse_config_option	./radio.c	/^static void parse_config_option(char *src, char **name, char **value)$/;"	f	file:
+password	./interface.h	/^    char            password[128];$/;"	m	struct:vapi_wan_config
+pptp_ip	./interface.h	/^    struct in_addr  *pptp_ip;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+pptp_netmask	./interface.h	/^    struct in_addr  *pptp_netmask;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+pptp_serverip	./interface.h	/^    struct in_addr  *pptp_serverip;$/;"	m	struct:vapi_wan_config	typeref:struct:vapi_wan_config::in_addr
+radio	./interface.h	/^    int             radio;$/;"	m	struct:vapi_wan_config
+radius_ip	./wlan.h	/^    struct in_addr radius_ip;$/;"	m	struct:vapi_wlan	typeref:struct:vapi_wlan::in_addr
+radius_port	./wlan.h	/^    u_int16_t   radius_port;$/;"	m	struct:vapi_wlan
+recv_bytes	./wlan.h	/^    uint64_t    recv_bytes;$/;"	m	struct:vapi_wan_info
+recv_gbytes	./wlan.h	/^    uint64_t    recv_gbytes;$/;"	m	struct:vapi_wan_info
+recv_packets	./wlan.h	/^    uint64_t    recv_packets;$/;"	m	struct:vapi_wan_info
+redial_mode	./interface.h	/^    int             redial_mode;$/;"	m	struct:vapi_wan_config
+send_bytes	./wlan.h	/^    uint64_t    send_bytes;$/;"	m	struct:vapi_wan_info
+send_gbytes	./wlan.h	/^    uint64_t    send_gbytes;$/;"	m	struct:vapi_wan_info
+send_packets	./wlan.h	/^    uint64_t    send_packets;$/;"	m	struct:vapi_wan_info
+strlen_zero	./utils.h	25;"	d
+strmatch	./utils.c	/^int strmatch(const char *buf, const char *pattern)$/;"	f
+strmove	./utils.c	/^char *strmove(char src[])$/;"	f
+strnmatch	./utils.c	/^int strnmatch(const char *buf, const char *pattern)$/;"	f
+timeout	./interface.h	/^    int             timeout;$/;"	m	struct:vapi_wan_config
+total_down	./qos.h	/^    uint32_t    total_down;$/;"	m	struct:vapi_qos
+total_up	./qos.h	/^    uint32_t    total_up;$/;"	m	struct:vapi_qos
+txpower	./interface.h	/^    int             txpower;$/;"	m	struct:vapi_wan_config
+txpower	./neighbour.h	/^    int         txpower;$/;"	m	struct:vapi_neighbour
+txpower	./radio.h	/^    uint32_t    txpower;$/;"	m	struct:vapi_radio
+txpower	./wlan.h	/^    int         txpower;$/;"	m	struct:vapi_wan_info
+type	./interface.h	/^    int             type;$/;"	m	struct:vapi_wan_config
+username	./interface.h	/^    char            username[64];$/;"	m	struct:vapi_wan_config
+vapi_add_br	./interface.c	/^int vapi_add_br(const char *brname)$/;"	f
+vapi_add_br_if	./interface.c	/^int vapi_add_br_if(const char *brname, const char *ifname)$/;"	f
+vapi_add_lan_br_if	./interface.c	/^int vapi_add_lan_br_if(const char *ifname)$/;"	f
+vapi_add_vlan_if	./interface.c	/^int vapi_add_vlan_if(int vid, char *ifname, int ifname_len)$/;"	f
+vapi_add_wan_br_if	./interface.c	/^int vapi_add_wan_br_if(const char *ifname)$/;"	f
+vapi_add_wlan	./wlan.c	/^int vapi_add_wlan(const vapi_wlan_t *wlan)$/;"	f
+vapi_brlanipcfg_init	./interface.c	/^void vapi_brlanipcfg_init(void)$/;"	f
+vapi_del_all_wlans	./wlan.c	/^int vapi_del_all_wlans(void)$/;"	f
+vapi_del_br	./interface.c	/^int vapi_del_br(const char *brname)$/;"	f
+vapi_del_br_if	./interface.c	/^int vapi_del_br_if(const char *brname, const char *ifname)$/;"	f
+vapi_del_vlan_if	./interface.c	/^int vapi_del_vlan_if(int vid)$/;"	f
+vapi_del_wan_br_if	./interface.c	/^int vapi_del_wan_br_if(const char *ifname)$/;"	f
+vapi_del_wlan	./wlan.c	/^int vapi_del_wlan(uint32_t id)$/;"	f
+vapi_dhcpserver_start	./interface.c	/^int vapi_dhcpserver_start(void)$/;"	f
+vapi_factory	./interface.c	/^int vapi_factory(void)$/;"	f
+vapi_fwupdate_close	./neighbour.c	/^void vapi_fwupdate_close(FILE *fp)$/;"	f
+vapi_fwupdate_open	./neighbour.c	/^FILE *vapi_fwupdate_open(void)$/;"	f
+vapi_fwupdate_write	./neighbour.c	/^int vapi_fwupdate_write(FILE *fp, const uint8_t* buf, uint16_t len)$/;"	f
+vapi_get_cpu_usage	./system.c	/^int vapi_get_cpu_usage(void)$/;"	f
+vapi_get_firmware_version	./system.c	/^int vapi_get_firmware_version(char *buf, int buf_len)$/;"	f
+vapi_get_hardware_version	./system.c	/^int vapi_get_hardware_version(char *buf, int buf_len)$/;"	f
+vapi_get_iwinfo	./radio.c	/^static void vapi_get_iwinfo(const char *ifname, vapi_radio_t *radio)$/;"	f	file:
+vapi_get_lan_name	./system.c	/^int vapi_get_lan_name(char *lan_name)$/;"	f
+vapi_get_meminfo	./system.c	/^static int vapi_get_meminfo(const char *buf)$/;"	f	file:
+vapi_get_memory_usage	./system.c	/^int vapi_get_memory_usage(void)$/;"	f
+vapi_get_name	./system.c	/^int vapi_get_name(char *buf, int buf_len)$/;"	f
+vapi_get_radio	./radio.c	/^vapi_get_radio(vapi_radio_t *radio)$/;"	f
+vapi_get_radio_type	./radio.c	/^int vapi_get_radio_type(void)$/;"	f
+vapi_get_sys_time	./system.c	/^vapi_get_sys_time(void)$/;"	f
+vapi_get_uptime	./system.c	/^vapi_get_uptime(void)$/;"	f
+vapi_get_vendor	./system.c	/^vapi_get_vendor(char *buf, int buf_len)$/;"	f
+vapi_get_vlan_if_name	./interface.c	/^int vapi_get_vlan_if_name(int vid, char *ifname, int ifname_len)$/;"	f
+vapi_get_wan_config	./interface.c	/^int vapi_get_wan_config(vapi_wan_config_t *config)$/;"	f
+vapi_get_wan_ip	./system.c	/^int vapi_get_wan_ip(struct in_addr *ip)$/;"	f
+vapi_get_wan_mac	./system.c	/^int vapi_get_wan_mac(u_char *mac)$/;"	f
+vapi_get_wan_vlan_id	./interface.c	/^int vapi_get_wan_vlan_id(void)$/;"	f
+vapi_iface_down	./interface.c	/^int vapi_iface_down(const char *ifname)$/;"	f
+vapi_iface_up	./interface.c	/^int vapi_iface_up(const char *ifname)$/;"	f
+vapi_init	./interface.c	/^int vapi_init(void)$/;"	f
+vapi_load_config	./neighbour.c	/^int vapi_load_config(int type, void *data, int data_len)$/;"	f
+vapi_log	./interface.c	/^int vapi_log(int line, const char *log)$/;"	f
+vapi_log_load	./interface.c	/^int vapi_log_load(char *buf, int line)$/;"	f
+vapi_neighbour	./neighbour.h	/^typedef struct vapi_neighbour {$/;"	s
+vapi_neighbour_t	./neighbour.h	/^} vapi_neighbour_t;$/;"	t	typeref:struct:vapi_neighbour
+vapi_open_shell	./system.c	/^void vapi_open_shell(void)$/;"	f
+vapi_qos	./qos.h	/^typedef struct vapi_qos {$/;"	s
+vapi_qos_set	./qos.c	/^int vapi_qos_set(const vapi_qos_t *qos)$/;"	f
+vapi_qos_start	./qos.c	/^int vapi_qos_start(void)$/;"	f
+vapi_qos_stop	./qos.c	/^int vapi_qos_stop(void)$/;"	f
+vapi_qos_t	./qos.h	/^} vapi_qos_t;$/;"	t	typeref:struct:vapi_qos
+vapi_radio	./radio.h	/^typedef struct vapi_radio {$/;"	s
+vapi_radio_t	./radio.h	/^} vapi_radio_t;$/;"	t	typeref:struct:vapi_radio
+vapi_reboot	./system.c	/^void vapi_reboot(void)$/;"	f
+vapi_save_config	./neighbour.c	/^int vapi_save_config(int type, void *data, int data_len)$/;"	f
+vapi_scan_neighours	./neighbour.c	/^int vapi_scan_neighours(int freq, vapi_neighbour_t* neighours)$/;"	f
+vapi_set_brlan_ip	./interface.c	/^int vapi_set_brlan_ip(struct in_addr *ipaddr)$/;"	f
+vapi_set_brlandhcp_config	./interface.c	/^void vapi_set_brlandhcp_config(int cfgid)$/;"	f
+vapi_set_firewall_nat	./interface.c	/^void vapi_set_firewall_nat(char *lan_ip)$/;"	f
+vapi_set_radio	./radio.c	/^int vapi_set_radio(const vapi_radio_t *radio)$/;"	f
+vapi_set_sys_time	./system.c	/^int vapi_set_sys_time(time_t t)$/;"	f
+vapi_set_wan_config	./interface.c	/^int vapi_set_wan_config(vapi_wan_config_t *config)$/;"	f
+vapi_set_wlan	./wlan.c	/^int vapi_set_wlan(const vapi_wlan_t *wlan)$/;"	f
+vapi_station_logoff	./neighbour.c	/^int vapi_station_logoff(const u_char* mac)$/;"	f
+vapi_upgrade_bin	./neighbour.c	/^int vapi_upgrade_bin(char *bin_name)$/;"	f
+vapi_upgrade_now	./neighbour.c	/^int vapi_upgrade_now(const void *image, int length)$/;"	f
+vapi_wan_config	./interface.h	/^typedef struct vapi_wan_config {$/;"	s
+vapi_wan_config_t	./interface.h	/^} vapi_wan_config_t;$/;"	t	typeref:struct:vapi_wan_config
+vapi_wan_down	./interface.c	/^void vapi_wan_down(void)$/;"	f
+vapi_wan_info	./wlan.h	/^typedef struct vapi_wan_info {$/;"	s
+vapi_wifi_start	./qos.c	/^int vapi_wifi_start(vapi_wlan_if_t *wlanifs, int wlan_num)$/;"	f
+vapi_wifi_start_finish	./qos.c	/^int vapi_wifi_start_finish(void)$/;"	f
+vapi_wifi_stop	./qos.c	/^int vapi_wifi_stop(void)$/;"	f
+vapi_wifi_stop_finish	./qos.c	/^int vapi_wifi_stop_finish(void)$/;"	f
+vapi_wlan	./wlan.h	/^typedef struct vapi_wlan {$/;"	s
+vapi_wlan_if	./qos.h	/^typedef struct vapi_wlan_if {$/;"	s
+vapi_wlan_if_t	./qos.h	/^} vapi_wlan_if_t;$/;"	t	typeref:struct:vapi_wlan_if
+vapi_wlan_info_t	./wlan.h	/^} vapi_wlan_info_t;$/;"	t	typeref:struct:vapi_wan_info
+vapi_wlan_t	./wlan.h	/^} vapi_wlan_t;$/;"	t	typeref:struct:vapi_wlan
+vlan_id	./interface.h	/^    int             vlan_id;$/;"	m	struct:vapi_wan_config
+vslan_down	./qos.h	/^    uint32_t    vslan_down;$/;"	m	struct:vapi_qos
+vslan_up	./qos.h	/^    uint32_t    vslan_up;$/;"	m	struct:vapi_qos
+wlanif	./qos.h	/^    u_char      wlanif[IFNAMSIZ];$/;"	m	struct:vapi_wlan_if
+wlanifs	./qos.h	/^vapi_wlan_if_t wlanifs[VAPI_MAX_WLANS];$/;"	v

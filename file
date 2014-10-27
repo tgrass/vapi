@@ -1,0 +1,532 @@
+In file included from utils.c:3:0:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h: In function 'parse_config_option':
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:245:21: error: storage class specified for parameter 'socklen_t'
+ typedef __socklen_t socklen_t;
+                     ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:258:12: error: storage class specified for parameter 'access'
+ extern int access (__const char *__name, int __type) __THROW __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:275:12: error: storage class specified for parameter 'faccessat'
+ extern int faccessat (int __fd, __const char *__file, int __type, int __flag)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:301:16: error: storage class specified for parameter 'lseek'
+ extern __off_t lseek (int __fd, __off_t __offset, int __whence) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:312:18: error: storage class specified for parameter 'lseek64'
+ extern __off64_t lseek64 (int __fd, __off64_t __offset, int __whence)
+                  ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:320:12: error: storage class specified for parameter 'close'
+ extern int close (int __fd);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:327:16: error: storage class specified for parameter 'read'
+ extern ssize_t read (int __fd, void *__buf, size_t __nbytes) __wur;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:333:16: error: storage class specified for parameter 'write'
+ extern ssize_t write (int __fd, __const void *__buf, size_t __n) __wur;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:343:16: error: storage class specified for parameter 'pread'
+ extern ssize_t pread (int __fd, void *__buf, size_t __nbytes,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:351:16: error: storage class specified for parameter 'pwrite'
+ extern ssize_t pwrite (int __fd, __const void *__buf, size_t __n,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:371:16: error: storage class specified for parameter 'pread64'
+ extern ssize_t pread64 (int __fd, void *__buf, size_t __nbytes,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:375:16: error: storage class specified for parameter 'pwrite64'
+ extern ssize_t pwrite64 (int __fd, __const void *__buf, size_t __n,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:384:12: error: storage class specified for parameter 'pipe'
+ extern int pipe (int __pipedes[2]) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:389:12: error: storage class specified for parameter 'pipe2'
+ extern int pipe2 (int __pipedes[2], int __flags) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:399:21: error: storage class specified for parameter 'alarm'
+ extern unsigned int alarm (unsigned int __seconds) __THROW;
+                     ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:411:21: error: storage class specified for parameter 'sleep'
+ extern unsigned int sleep (unsigned int __seconds);
+                     ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:419:21: error: storage class specified for parameter 'ualarm'
+ extern __useconds_t ualarm (__useconds_t __value, __useconds_t __interval)
+                     ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:427:12: error: storage class specified for parameter 'usleep'
+ extern int usleep (__useconds_t __useconds);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:436:12: error: storage class specified for parameter 'pause'
+ extern int pause (void);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:440:12: error: storage class specified for parameter 'chown'
+ extern int chown (__const char *__file, __uid_t __owner, __gid_t __group)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:445:12: error: storage class specified for parameter 'fchown'
+ extern int fchown (int __fd, __uid_t __owner, __gid_t __group) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:450:12: error: storage class specified for parameter 'lchown'
+ extern int lchown (__const char *__file, __uid_t __owner, __gid_t __group)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:458:12: error: storage class specified for parameter 'fchownat'
+ extern int fchownat (int __fd, __const char *__file, __uid_t __owner,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:464:12: error: storage class specified for parameter 'chdir'
+ extern int chdir (__const char *__path) __THROW __nonnull ((1)) __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:468:12: error: storage class specified for parameter 'fchdir'
+ extern int fchdir (int __fd) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:478:14: error: storage class specified for parameter 'getcwd'
+ extern char *getcwd (char *__buf, size_t __size) __THROW __wur;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:484:14: error: storage class specified for parameter 'get_current_dir_name'
+ extern char *get_current_dir_name (void) __THROW;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:497:12: error: storage class specified for parameter 'dup'
+ extern int dup (int __fd) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:500:12: error: storage class specified for parameter 'dup2'
+ extern int dup2 (int __fd, int __fd2) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:503:15: error: storage class specified for parameter '__environ'
+ extern char **__environ;
+               ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:505:15: error: storage class specified for parameter 'environ'
+ extern char **environ;
+               ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:511:12: error: storage class specified for parameter 'execve'
+ extern int execve (__const char *__path, char *__const __argv[],
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:523:12: error: storage class specified for parameter 'execv'
+ extern int execv (__const char *__path, char *__const __argv[])
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:528:12: error: storage class specified for parameter 'execle'
+ extern int execle (__const char *__path, __const char *__arg, ...)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:533:12: error: storage class specified for parameter 'execl'
+ extern int execl (__const char *__path, __const char *__arg, ...)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:538:12: error: storage class specified for parameter 'execvp'
+ extern int execvp (__const char *__file, char *__const __argv[])
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:544:12: error: storage class specified for parameter 'execlp'
+ extern int execlp (__const char *__file, __const char *__arg, ...)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:550:12: error: storage class specified for parameter 'nice'
+ extern int nice (int __inc) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:555:13: error: storage class specified for parameter '_exit'
+ extern void _exit (int __status) __attribute__ ((__noreturn__));
+             ^
+In file included from utils.c:3:0:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:564:17: error: storage class specified for parameter 'pathconf'
+ extern long int pathconf (__const char *__path, int __name)
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:568:17: error: storage class specified for parameter 'fpathconf'
+ extern long int fpathconf (int __fd, int __name) __THROW;
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:571:17: error: storage class specified for parameter 'sysconf'
+ extern long int sysconf (int __name) __THROW;
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:575:15: error: storage class specified for parameter 'confstr'
+ extern size_t confstr (int __name, char *__buf, size_t __len) __THROW;
+               ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:580:16: error: storage class specified for parameter 'getpid'
+ extern __pid_t getpid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:583:16: error: storage class specified for parameter 'getppid'
+ extern __pid_t getppid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:588:16: error: storage class specified for parameter 'getpgrp'
+ extern __pid_t getpgrp (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:598:16: error: storage class specified for parameter '__getpgid'
+ extern __pid_t __getpgid (__pid_t __pid) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:600:16: error: storage class specified for parameter 'getpgid'
+ extern __pid_t getpgid (__pid_t __pid) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:607:12: error: storage class specified for parameter 'setpgid'
+ extern int setpgid (__pid_t __pid, __pid_t __pgid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:624:12: error: storage class specified for parameter 'setpgrp'
+ extern int setpgrp (void) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:641:16: error: storage class specified for parameter 'setsid'
+ extern __pid_t setsid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:645:16: error: storage class specified for parameter 'getsid'
+ extern __pid_t getsid (__pid_t __pid) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:649:16: error: storage class specified for parameter 'getuid'
+ extern __uid_t getuid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:652:16: error: storage class specified for parameter 'geteuid'
+ extern __uid_t geteuid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:655:16: error: storage class specified for parameter 'getgid'
+ extern __gid_t getgid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:658:16: error: storage class specified for parameter 'getegid'
+ extern __gid_t getegid (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:663:12: error: storage class specified for parameter 'getgroups'
+ extern int getgroups (int __size, __gid_t __list[]) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:674:12: error: storage class specified for parameter 'setuid'
+ extern int setuid (__uid_t __uid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:679:12: error: storage class specified for parameter 'setreuid'
+ extern int setreuid (__uid_t __ruid, __uid_t __euid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:684:12: error: storage class specified for parameter 'seteuid'
+ extern int seteuid (__uid_t __uid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:691:12: error: storage class specified for parameter 'setgid'
+ extern int setgid (__gid_t __gid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:696:12: error: storage class specified for parameter 'setregid'
+ extern int setregid (__gid_t __rgid, __gid_t __egid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:701:12: error: storage class specified for parameter 'setegid'
+ extern int setegid (__gid_t __gid) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:707:12: error: storage class specified for parameter 'getresuid'
+ extern int getresuid (__uid_t *__ruid, __uid_t *__euid, __uid_t *__suid)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:712:12: error: storage class specified for parameter 'getresgid'
+ extern int getresgid (__gid_t *__rgid, __gid_t *__egid, __gid_t *__sgid)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:718:12: error: storage class specified for parameter 'setresuid'
+ extern int setresuid (__uid_t __ruid, __uid_t __euid, __uid_t __suid)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:724:12: error: storage class specified for parameter 'setresgid'
+ extern int setresgid (__gid_t __rgid, __gid_t __egid, __gid_t __sgid)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:733:16: error: storage class specified for parameter 'fork'
+ extern __pid_t fork (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:741:16: error: storage class specified for parameter 'vfork'
+ extern __pid_t vfork (void) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:745:13: error: storage class specified for parameter '__exit_thread'
+ extern void __exit_thread (int val) __attribute__ ((__noreturn__));
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:749:14: error: storage class specified for parameter 'ttyname'
+ extern char *ttyname (int __fd) __THROW;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:753:12: error: storage class specified for parameter 'ttyname_r'
+ extern int ttyname_r (int __fd, char *__buf, size_t __buflen)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:758:12: error: storage class specified for parameter 'isatty'
+ extern int isatty (int __fd) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:770:12: error: storage class specified for parameter 'link'
+ extern int link (__const char *__from, __const char *__to)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:776:12: error: storage class specified for parameter 'linkat'
+ extern int linkat (int __fromfd, __const char *__from, int __tofd,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:783:12: error: storage class specified for parameter 'symlink'
+ extern int symlink (__const char *__from, __const char *__to)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:789:16: error: storage class specified for parameter 'readlink'
+ extern ssize_t readlink (__const char *__restrict __path,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:796:12: error: storage class specified for parameter 'symlinkat'
+ extern int symlinkat (__const char *__from, int __tofd,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:800:16: error: storage class specified for parameter 'readlinkat'
+ extern ssize_t readlinkat (int __fd, __const char *__restrict __path,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:806:12: error: storage class specified for parameter 'unlink'
+ extern int unlink (__const char *__name) __THROW __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:810:12: error: storage class specified for parameter 'unlinkat'
+ extern int unlinkat (int __fd, __const char *__name, int __flag)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:815:12: error: storage class specified for parameter 'rmdir'
+ extern int rmdir (__const char *__path) __THROW __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:819:16: error: storage class specified for parameter 'tcgetpgrp'
+ extern __pid_t tcgetpgrp (int __fd) __THROW;
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:822:12: error: storage class specified for parameter 'tcsetpgrp'
+ extern int tcsetpgrp (int __fd, __pid_t __pgrp_id) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:829:14: error: storage class specified for parameter 'getlogin'
+ extern char *getlogin (void);
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:837:12: error: storage class specified for parameter 'getlogin_r'
+ extern int getlogin_r (char *__name, size_t __name_len) __nonnull ((1));
+            ^
+In file included from /home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:852:0,
+                 from utils.c:3:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:61:14: error: storage class specified for parameter 'optarg'
+ extern char *optarg;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:75:12: error: storage class specified for parameter 'optind'
+ extern int optind;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:80:12: error: storage class specified for parameter 'opterr'
+ extern int opterr;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:84:12: error: storage class specified for parameter 'optopt'
+ extern int optopt;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:154:12: error: storage class specified for parameter 'getopt'
+ extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+            ^
+In file included from utils.c:3:0:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:860:12: error: storage class specified for parameter 'gethostname'
+ extern int gethostname (char *__name, size_t __len) __THROW __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:867:12: error: storage class specified for parameter 'sethostname'
+ extern int sethostname (__const char *__name, size_t __len)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:872:12: error: storage class specified for parameter 'sethostid'
+ extern int sethostid (long int __id) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:878:12: error: storage class specified for parameter 'getdomainname'
+ extern int getdomainname (char *__name, size_t __len)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:882:12: error: storage class specified for parameter 'setdomainname'
+ extern int setdomainname (__const char *__name, size_t __len)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:890:12: error: storage class specified for parameter 'vhangup'
+ extern int vhangup (void) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:912:12: error: storage class specified for parameter 'acct'
+ extern int acct (__const char *__name) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:916:14: error: storage class specified for parameter 'getusershell'
+ extern char *getusershell (void) __THROW;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:917:13: error: storage class specified for parameter 'endusershell'
+ extern void endusershell (void) __THROW; /* Discard cached info.  */
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:918:13: error: storage class specified for parameter 'setusershell'
+ extern void setusershell (void) __THROW; /* Rewind and re-read the file.  */
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:924:12: error: storage class specified for parameter 'daemon'
+ extern int daemon (int __nochdir, int __noclose) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:931:12: error: storage class specified for parameter 'chroot'
+ extern int chroot (__const char *__path) __THROW __nonnull ((1)) __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:935:14: error: storage class specified for parameter 'getpass'
+ extern char *getpass (__const char *__prompt) __nonnull ((1));
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:944:12: error: storage class specified for parameter 'fsync'
+ extern int fsync (int __fd);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:951:17: error: storage class specified for parameter 'gethostid'
+ extern long int gethostid (void);
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:954:13: error: storage class specified for parameter 'sync'
+ extern void sync (void) __THROW;
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:959:12: error: storage class specified for parameter 'getpagesize'
+ extern int getpagesize (void)  __THROW __attribute__ ((__const__));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:964:12: error: storage class specified for parameter 'getdtablesize'
+ extern int getdtablesize (void) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:969:12: error: storage class specified for parameter 'truncate'
+ extern int truncate (__const char *__file, __off_t __length)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:981:12: error: storage class specified for parameter 'truncate64'
+ extern int truncate64 (__const char *__file, __off64_t __length)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:991:12: error: storage class specified for parameter 'ftruncate'
+ extern int ftruncate (int __fd, __off_t __length) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1001:12: error: storage class specified for parameter 'ftruncate64'
+ extern int ftruncate64 (int __fd, __off64_t __length) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1011:12: error: storage class specified for parameter 'brk'
+ extern int brk (void *__addr) __THROW __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1017:14: error: storage class specified for parameter 'sbrk'
+ extern void *sbrk (intptr_t __delta) __THROW;
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1032:17: error: storage class specified for parameter 'syscall'
+ extern long int syscall (long int __sysno, ...) __THROW;
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1055:12: error: storage class specified for parameter 'lockf'
+ extern int lockf (int __fd, int __cmd, __off_t __len) __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1065:12: error: storage class specified for parameter 'lockf64'
+ extern int lockf64 (int __fd, int __cmd, __off64_t __len) __wur;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1087:12: error: storage class specified for parameter 'fdatasync'
+ extern int fdatasync (int __fildes) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1096:14: error: storage class specified for parameter 'crypt'
+ extern char *crypt (__const char *__key, __const char *__salt)
+              ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1101:13: error: storage class specified for parameter 'encrypt'
+ extern void encrypt (char *__block, int __edflag) __THROW __nonnull ((1));
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1109:13: error: storage class specified for parameter 'swab'
+ extern void swab (__const void *__restrict __from, void *__restrict __to,
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:1118:14: error: storage class specified for parameter 'ctermid'
+ extern char *ctermid (char *__s) __THROW;
+              ^
+In file included from /home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:34:0,
+                 from utils.c:5:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:179:22: error: storage class specified for parameter 'flock_t'
+ typedef struct flock flock_t;
+                      ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:239:16: error: storage class specified for parameter 'readahead'
+ extern ssize_t readahead (int __fd, __off64_t __offset, size_t __count)
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:244:12: error: storage class specified for parameter 'sync_file_range'
+ extern int sync_file_range (int __fd, __off64_t __from, __off64_t __to,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:248:16: error: storage class specified for parameter 'vmsplice'
+ extern ssize_t vmsplice (int __fdout, const struct iovec *__iov,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:252:16: error: storage class specified for parameter 'splice'
+ extern ssize_t splice (int __fdin, __off64_t *__offin, int __fdout,
+                ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:257:16: error: storage class specified for parameter 'tee'
+ extern ssize_t tee (int __fdin, int __fdout, size_t __len,
+                ^
+In file included from /home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:38:0,
+                 from utils.c:5:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:209:12: error: storage class specified for parameter 'stat'
+ extern int stat (__const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:214:12: error: storage class specified for parameter 'fstat'
+ extern int fstat (int __fd, struct stat *__buf) __THROW __nonnull ((2));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:228:12: error: storage class specified for parameter 'stat64'
+ extern int stat64 (__const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:230:12: error: storage class specified for parameter 'fstat64'
+ extern int fstat64 (int __fd, struct stat64 *__buf) __THROW __nonnull ((2));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:238:12: error: storage class specified for parameter 'fstatat'
+ extern int fstatat (int __fd, __const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:253:12: error: storage class specified for parameter 'fstatat64'
+ extern int fstatat64 (int __fd, __const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:263:12: error: storage class specified for parameter 'lstat'
+ extern int lstat (__const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:276:12: error: storage class specified for parameter 'lstat64'
+ extern int lstat64 (__const char *__restrict __file,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:284:12: error: storage class specified for parameter 'chmod'
+ extern int chmod (__const char *__file, __mode_t __mode)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:297:12: error: storage class specified for parameter 'fchmod'
+ extern int fchmod (int __fd, __mode_t __mode) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:303:12: error: storage class specified for parameter 'fchmodat'
+ extern int fchmodat (int __fd, __const char *__file, __mode_t __mode,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:312:17: error: storage class specified for parameter 'umask'
+ extern __mode_t umask (__mode_t __mask) __THROW;
+                 ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:321:12: error: storage class specified for parameter 'mkdir'
+ extern int mkdir (__const char *__path, __mode_t __mode)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:328:12: error: storage class specified for parameter 'mkdirat'
+ extern int mkdirat (int __fd, __const char *__path, __mode_t __mode)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:336:12: error: storage class specified for parameter 'mknod'
+ extern int mknod (__const char *__path, __mode_t __mode, __dev_t __dev)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:343:12: error: storage class specified for parameter 'mknodat'
+ extern int mknodat (int __fd, __const char *__path, __mode_t __mode,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:350:12: error: storage class specified for parameter 'mkfifo'
+ extern int mkfifo (__const char *__path, __mode_t __mode)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:357:12: error: storage class specified for parameter 'mkfifoat'
+ extern int mkfifoat (int __fd, __const char *__path, __mode_t __mode)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:364:12: error: storage class specified for parameter 'utimensat'
+ extern int utimensat (int __fd, __const char *__path,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:372:12: error: storage class specified for parameter 'futimens'
+ extern int futimens (int __fd, __const struct timespec __times[2]) __THROW;
+            ^
+In file included from utils.c:5:0:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:77:12: error: storage class specified for parameter 'fcntl'
+ extern int fcntl (int __fd, int __cmd, ...);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:86:12: error: storage class specified for parameter 'fcntl64'
+ extern int fcntl64 (int __fd, int __cmd, ...);
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:96:12: error: storage class specified for parameter 'open'
+ extern int open (__const char *__file, int __oflag, ...) __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:106:12: error: storage class specified for parameter 'open64'
+ extern int open64 (__const char *__file, int __oflag, ...) __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:120:12: error: storage class specified for parameter 'openat'
+ extern int openat (int __fd, __const char *__file, int __oflag, ...)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:131:12: error: storage class specified for parameter 'openat64'
+ extern int openat64 (int __fd, __const char *__file, int __oflag, ...)
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:141:12: error: storage class specified for parameter 'creat'
+ extern int creat (__const char *__file, __mode_t __mode) __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:151:12: error: storage class specified for parameter 'creat64'
+ extern int creat64 (__const char *__file, __mode_t __mode) __nonnull ((1));
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:187:12: error: storage class specified for parameter 'posix_fadvise'
+ extern int posix_fadvise (int __fd, __off_t __offset, __off_t __len,
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:199:12: error: storage class specified for parameter 'posix_fadvise64'
+ extern int posix_fadvise64 (int __fd, __off64_t __offset, __off64_t __len,
+            ^
+In file included from utils.c:6:0:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdarg.h:98:24: error: storage class specified for parameter 'va_list'
+ typedef __gnuc_va_list va_list;
+                        ^
+In file included from /home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/syslog.h:1:0,
+                 from utils.c:7:
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:181:13: error: storage class specified for parameter 'closelog'
+ extern void closelog (void);
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:187:13: error: storage class specified for parameter 'openlog'
+ extern void openlog (__const char *__ident, int __option, int __facility);
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:190:12: error: storage class specified for parameter 'setlogmask'
+ extern int setlogmask (int __mask) __THROW;
+            ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:196:13: error: storage class specified for parameter 'syslog'
+ extern void syslog (int __pri, __const char *__fmt, ...)
+             ^
+/home/tarena/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:206:13: error: storage class specified for parameter 'vsyslog'
+ extern void vsyslog (int __pri, __const char *__fmt, __gnuc_va_list __ap)
+             ^
+utils.c:10:12: error: storage class specified for parameter 'daemon_debug'
+ extern int daemon_debug;
+            ^
+utils.c:13:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+utils.c:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+utils.c:62:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+utils.c:71:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+utils.c:80:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from utils.c:2:0:
+utils.h:23:6: error: old-style parameter declarations in prototyped function definition
+ void parse_config_option(char *src, char **name, char **value)
+      ^
+make: *** [utils.o] 错误 1
